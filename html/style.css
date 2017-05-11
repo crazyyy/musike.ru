@@ -1,0 +1,148 @@
+/*
+Template Name: Lazy
+Template URI: http://www.tamad.net/minimalist-website-template/lazy-website-template-1-0/
+Template Code: t-000110
+Description: light minimalist website template designed for portfolio and blogsites.
+Version: 1.0
+Author: Froilan Banaticla
+Author URI: http://www.tamad.net/
+*/
+
+@import url("css/reset.css");
+@import url("css/960.css");
+@import url("css/lazy.css");
+
+#breadcrumbs {
+	text-align:left;
+	font-weight:bold;
+	padding-bottom:4px;
+	border:1px solid #72737a;
+	border-left:0px;
+	border-right:0px;
+}
+
+div#content div#c img {
+	float:left; 
+	margin:0px 12px 8px 0px; 
+}
+
+div#content div#c div.lecture a {
+	/* border-bottom:1px solid #337755;*/
+	/*color:#337755;*/
+	/*color:#317050;*/
+	color:#1D6B44;
+	border-bottom:1px solid;
+}
+
+div#content div#c div.lecture h2 a {
+	color:#ffffff;
+	border-bottom:none;
+}
+
+
+div#content div#c div.lecture a:hover {
+	border-bottom:none;
+}
+
+
+.musike_menu a {
+	display:block;
+	color:#3F4652;
+	padding:4px 8px;
+	border:1px solid #3F4652;
+	border-top:0px;
+	margin:0px;
+}
+
+.musike_menu ul {
+	list-style:none;
+	padding:none;
+	margin:none;
+}
+
+.musike_menu ul li {
+	padding:none;
+	margin:none;
+}
+
+.musike_menu a:hover {
+	background-color:#9B9FA5;
+	color:#222222;
+}
+
+.musike_menu .header {
+	background-color:#3F4652;
+	color:#ffffff;
+	font-weight:normal;
+	padding:4px 12px;
+}
+.musike_menu .header a {
+	background-color:#3F4652;
+	color:#ffffff;
+}
+
+
+ h1, h2, h3 {
+	/*background-color:#4A5362;*/
+	background-color:#3F4652;
+	color:#ffffff;
+	padding:6px 10px;
+	font-size:14px;
+	font-weight:bolder;
+	margin:0px;
+}
+
+.amazon_icon {
+	background:url(img/icon_amazon.gif) no-repeat 0px 2px;
+	padding-left:24px;
+}
+
+.ozon_icon {
+	background:url(img/icon_ozon.gif) no-repeat 0px 2px;
+	padding-left:24px;
+}
+
+.lecture div.vrezka {
+	float:right;
+	margin:12px;
+}
+
+#main-wrapper .large_menu {
+	padding:20px;
+	text-align:center;
+	background-color:#3F4652;
+	color:#ffffff;
+}
+#main-wrapper .large_menu a {
+	color:#ffffff;
+	margin:0px 4px;
+}
+
+div.contents {
+	width:40%;
+	float:left;
+	border:1px solid #3F4652;
+	margin-right:20px;
+	margin-top:4px;
+}
+
+div#main-wrapper div#content div.lecture div.contents a {
+	display:block;
+	padding:4px 8px;
+	border-bottom:none;
+	color:#3F4652;
+	border-top:1px solid #3F4652;
+}
+
+div#main-wrapper div#content div.lecture div.contents a:hover {
+	background-color:#9B9FA5;
+	color:#222222;
+}
+
+div.contents div.caption {
+	background-color:#3F4652;
+	color:#ffffff;
+	padding:8px;
+}
+
+
